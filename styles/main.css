@@ -8,9 +8,9 @@ h1 {
     font-size: 50px;
 }
 
-.button {
+#options, #standard, #rainbow {
     display: block;
-    margin: 15px auto;
+    margin: 15px auto 0px auto;
     text-align: center;
     background-color: #d6d6d6;
     border: none;
@@ -22,10 +22,15 @@ h1 {
 
 }
 
+#standard, #rainbow {
+    display: none;
+    margin: auto;
+}
+
 #container {
     margin: 30px auto;
-    height: 700px;
-    width: 700px;
+    height: 650px;
+    width: 650px;
     line-height: 0;
     outline-width: 0;
 }
@@ -41,7 +46,9 @@ h1 {
     background: #747474;
 }
 
-a:hover {
+
+#standard:hover, #rainbow:hover {
     background: #F5AEAE;
     color: white;
 }
+
